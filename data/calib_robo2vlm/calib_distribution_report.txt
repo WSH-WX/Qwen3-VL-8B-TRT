@@ -1,0 +1,98 @@
+Robo2VLM calibration set distribution report
+============================================================
+Total samples: 256
+Exact duplicate texts: 0
+
+Text length chars: min=235, max=598, mean=349.9, median=332.5
+Question length chars: min=28, max=295, mean=111.3, median=115.0
+Rough token count: min=53, max=123, mean=74.5, median=72.0
+
+Choice count distribution:
+  4 choices: 81
+  5 choices: 175
+
+Category distribution, keyword-based and overlapping:
+  task_success_state: 147
+  visual_identification: 139
+  manipulation_gripper: 125
+  spatial_relation_depth: 76
+  safety_navigation: 72
+  next_action_phase: 24
+  obstacle_reachability: 19
+
+Number of categories matched per sample:
+  1 category hits: 50
+  2 category hits: 103
+  3 category hits: 70
+  4 category hits: 29
+  5 category hits: 4
+
+Most common question first words:
+  the: 147
+  in: 57
+  is: 47
+  which: 5
+
+Most common keywords:
+  robot: 346
+  which: 151
+  from: 114
+  task: 105
+  image: 94
+  move: 93
+  colored: 80
+  point: 71
+  camera: 71
+  shows: 71
+  with: 68
+  drawer: 64
+  will: 61
+  next: 61
+  gripper: 53
+  open: 52
+  tasked: 42
+  action: 42
+  phase: 42
+  closest: 38
+  chip: 38
+  arrow: 37
+  correctly: 37
+  direction: 37
+  after: 36
+  configuration: 34
+  goal: 34
+  state: 34
+  that: 34
+  should: 34
+  achieve: 34
+  successfully: 34
+  completed: 34
+  right: 33
+  grasp: 31
+  left: 29
+  what: 24
+  shown: 23
+  pick: 22
+  releasing: 20
+
+Sample questions:
+01. Is there any obstacle blocking the robot from reaching jalapeno?
+02. The robot is tasked to releasing the peg by opening gripper with the peg. After Releasing the peg by opening gripper, what will be the robot's NEXT action phase?
+03. In the image from ext1, which colored point is CLOSEST to the camera?
+04. Is there any obstacle blocking the robot from reaching box?
+05. The robot is tasked to close bottom drawer. The robot is interacting with the drawer. Which phase of the grasp action is shown in the image?
+06. The robot task is to put the green marker in the clear bowl. Which colored arrow correctly shows the direction the robot will move next?
+07. Is the robot's grasp of the drawer stable?
+08. In the image from ext1, which colored point is CLOSEST to the camera?
+09. The robot is tasked to approaching the drawer with open gripper with the drawer. After Approaching the drawer with open gripper, what will be the robot's NEXT action phase?
+10. The robot is tasked to close middle drawer. The robot is interacting with the drawer. Which phase of the grasp action is shown in the image?
+11. Is the robot's gripper open?
+12. The robot task is to remove the marker from the mug and put it on the table. Which colored arrow correctly shows the direction the robot will move next?
+13. In the image from ext1, which colored point is FARTHEST from the camera?
+14. The robot is tasked to approaching the bag with open gripper with the bag. After Approaching the bag with open gripper, what will be the robot's NEXT action phase?
+15. The robot task is to put the blue lego brick in the open drawer then close the drawer. Which colored arrow correctly shows the direction the robot will move next?
+16. Is there any obstacle blocking the robot from reaching bag?
+17. Is the robot's gripper open?
+18. Is there any obstacle blocking the robot from reaching rice chip bag?
+19. The robot's task is to put down maroon cube. Which configuration shows the goal state that the robot should achieve?
+20. In the image from ext1, which colored point is CLOSEST to the camera?

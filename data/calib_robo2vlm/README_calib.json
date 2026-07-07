@@ -1,0 +1,23 @@
+{
+  "source_dataset": "keplerccc/Robo2VLM-1",
+  "source_repo_type": "dataset",
+  "dataset_purpose": "TensorRT Edge-LLM INT4 AWQ calibration for Qwen3-VL LLM backbone",
+  "format": "JSONL, one object per line, field name: text",
+  "num_samples": 256,
+  "target_num_samples": 256,
+  "random_seed": 42,
+  "total_train_parquet_files_in_repo": 262,
+  "num_downloaded_shards": 8,
+  "downloaded_shards": [
+    "data/train-00000-of-00262.parquet",
+    "data/train-00037-of-00262.parquet",
+    "data/train-00075-of-00262.parquet",
+    "data/train-00112-of-00262.parquet",
+    "data/train-00149-of-00262.parquet",
+    "data/train-00186-of-00262.parquet",
+    "data/train-00224-of-00262.parquet",
+    "data/train-00261-of-00262.parquet"
+  ],
+  "max_samples_per_task_prefix": 4,
+  "note": "Only text prompts are used. Images and ground-truth answers are not included, because tensorrt-edgellm-quantize llm calibrates the language backbone."
+}
