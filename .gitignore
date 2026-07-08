@@ -70,3 +70,18 @@ Testing/
 
 # private raw command history
 *.private.txt
+
+# local Orin benchmark raw logs
+runs/**/logs/
+runs/**/logs/**
+
+
+# benchmark outputs and local results
+runs/
+outputs/
+profiles/
+reports/
+quality_eval/
+logs/
+final_archives/
+

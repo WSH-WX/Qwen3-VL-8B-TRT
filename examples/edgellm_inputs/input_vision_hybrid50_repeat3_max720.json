@@ -1,0 +1,3159 @@
+{
+  "batch_size": 1,
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "top_k": 1,
+  "max_generate_length": 720,
+  "requests": [
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx116.jpg"
+            },
+            {
+              "type": "text",
+              "text": "What is this for?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx283.jpg"
+            },
+            {
+              "type": "text",
+              "text": "what is this?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx020.jpg"
+            },
+            {
+              "type": "text",
+              "text": "What brand washing machines are depicted on this pic?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx146.jpg"
+            },
+            {
+              "type": "text",
+              "text": "I'm practicing TOEIC speaking Questions 3–4: Describe a picture. This is an example question:\n\"Directions: In this part of the test, you will describe the picture on your screen in as much detail as you can. You will have 45 seconds to prepare your response. Then you will have 30 seconds to speak about the picture.\"\nplease create its description with this structure:\n\"Địa điểm: This picture was taken in...\nSố lượng người: There are ... people in the picture\n(If have) Miêu tả đặc điểm chung của nhân vật\n[vị trí], a man/a woman/a boy + + with + mô tả ngoại hình + is + V-ing\nMô tả bên cạnh, phía sau background: Next to her, I can see... In the background, there is...\nCảm giác: It seems that they are very busy... Maybe they are clearing their room.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx118.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Describe the image in detail."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx330.jpg"
+            },
+            {
+              "type": "text",
+              "text": "fully itemise the  contents of this photograph"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx084.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Genera un breve alt-text descrittivo dell'immagine allegata. L'alt-text deve contenere le seguenti keyword: qawra, malta, quadrilocale."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx007.jpg"
+            },
+            {
+              "type": "text",
+              "text": "how many cars are in this image?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx432.jpg"
+            },
+            {
+              "type": "text",
+              "text": "How many cars are in the image? Answer with only an integer and no punctuation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx073.jpg"
+            },
+            {
+              "type": "text",
+              "text": "How many cars are in this photo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx237.jpg"
+            },
+            {
+              "type": "text",
+              "text": "How many cars are in the image? Answer with only an integer and no punctuation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx356.jpg"
+            },
+            {
+              "type": "text",
+              "text": "How many cars are in the image? Answer with only an integer and no punctuation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx476.jpg"
+            },
+            {
+              "type": "text",
+              "text": "How many cars are in the image? Answer with only an integer and no punctuation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx489.jpg"
+            },
+            {
+              "type": "text",
+              "text": "How many cars are in the image? Answer with only an integer and no punctuation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx033.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Where is the car on the image ?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx181.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Which parts of the car are damaged? Output only a valid JSON object."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx174.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Please describe this image."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx357.jpg"
+            },
+            {
+              "type": "text",
+              "text": "What does the sign with the colorful letters say?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx003.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Keeping purely to the practical and functional aspect, would these instructions be comprehensive enough if intended for actual real-world use?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx187.jpg"
+            },
+            {
+              "type": "text",
+              "text": "What is this device on utility pole?\nRecently erected on site at an Elementary School in the US"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx302.jpg"
+            },
+            {
+              "type": "text",
+              "text": "What is this device on utility pole?\nRecently erected on site at an Elementary School in the US"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx457.jpg"
+            },
+            {
+              "type": "text",
+              "text": "What is this plant? It was super tiny and looks like moss, though it has these seed pods. It was growing in a crack in some concrete in my backyard in Seattle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx270.jpg"
+            },
+            {
+              "type": "text",
+              "text": "where is fish"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx006.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Describe this image as alt text."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx065.jpg"
+            },
+            {
+              "type": "text",
+              "text": "describe the image in 150 words in an SD style"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx218.jpg"
+            },
+            {
+              "type": "text",
+              "text": "describe the image in heavy detail"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx378.jpg"
+            },
+            {
+              "type": "text",
+              "text": "describe the image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx122.jpg"
+            },
+            {
+              "type": "text",
+              "text": "In a single word and no more, how will this scene go?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx463.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Explain what happens in the picture and where this kind of pictures can usually be found at."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx410.jpg"
+            },
+            {
+              "type": "text",
+              "text": "what is this picture"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx354.jpg"
+            },
+            {
+              "type": "text",
+              "text": "how many ppl r sitting in this image and how many males n femalrs r there"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx054.jpg"
+            },
+            {
+              "type": "text",
+              "text": "based on this image, how hot is it outside?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx061.jpg"
+            },
+            {
+              "type": "text",
+              "text": "What are the people eating in this picture?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx312.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Respond with just a JSON object from the receipt image provided, with the following fields:\n- shopNameShort\n- shopLocation\n- totalPriceInclusive\n- paymentMethod (either CASH, CREDIT, DEBIT, or UNKNOWN)\n- lineItems (an array of objects with fields: unitPrice, quantity, description, totalPrice. quantity field should be a unit-less integer such that unitPrice * quantity = totalPrice. For example, 600g is not valid)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx381.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Tell me what plant species this is and where it's natively from."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx494.jpg"
+            },
+            {
+              "type": "text",
+              "text": "What is this?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx184.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Create a TavernV2/Sillytavern card (description, opening message, example dialogue between {{char}} and {{user}}, etc.) based on the multi-axis chair/g-force training device displayed on the image. The machine should be AI-controlled. One of the taglines for the machine is \"At 46G, can you keep your head?\", hinting at its extreme capabilities."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx106.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Where is this image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx286.jpg"
+            },
+            {
+              "type": "text",
+              "text": "what is this paper about? tell me more about accedent that described in this picture"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx092.jpg"
+            },
+            {
+              "type": "text",
+              "text": "find the pattern"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx116.jpg"
+            },
+            {
+              "type": "text",
+              "text": "As a robot assistant, identify the main object in the image and explain how it could be used or interacted with in a real-world task."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx283.jpg"
+            },
+            {
+              "type": "text",
+              "text": "From a robot perception perspective, describe the visible object, its likely function, and any cues that would help a robot decide whether it can grasp or manipulate it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx020.jpg"
+            },
+            {
+              "type": "text",
+              "text": "As a service robot in a home or facility, identify the appliance or machine shown and explain what information is useful for interacting with it safely."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx007.jpg"
+            },
+            {
+              "type": "text",
+              "text": "As a mobile robot or navigation system, count the visible cars and briefly describe their positions in the scene."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx118.jpg"
+            },
+            {
+              "type": "text",
+              "text": "As an indoor service robot, describe the room layout and list the objects that would matter for navigation or task planning."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx330.jpg"
+            },
+            {
+              "type": "text",
+              "text": "From a robot viewpoint, itemize the main visible objects in the scene and mention which ones may act as obstacles or useful landmarks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx033.jpg"
+            },
+            {
+              "type": "text",
+              "text": "As a navigation robot, locate the car in the image and describe its position relative to the rest of the scene."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx181.jpg"
+            },
+            {
+              "type": "text",
+              "text": "As an inspection robot, identify the visible damaged parts of the car and output the key findings in a concise structured form."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx174.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Read any visible text, label, or sign in the image and explain how that information could help a robot decide its next action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx187.jpg"
+            },
+            {
+              "type": "text",
+              "text": "As an outdoor inspection robot, identify the device or object in the scene and explain what safety or navigation considerations it may imply."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx116.jpg"
+            },
+            {
+              "type": "text",
+              "text": "What is this for?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx283.jpg"
+            },
+            {
+              "type": "text",
+              "text": "what is this?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx020.jpg"
+            },
+            {
+              "type": "text",
+              "text": "What brand washing machines are depicted on this pic?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx146.jpg"
+            },
+            {
+              "type": "text",
+              "text": "I'm practicing TOEIC speaking Questions 3–4: Describe a picture. This is an example question:\n\"Directions: In this part of the test, you will describe the picture on your screen in as much detail as you can. You will have 45 seconds to prepare your response. Then you will have 30 seconds to speak about the picture.\"\nplease create its description with this structure:\n\"Địa điểm: This picture was taken in...\nSố lượng người: There are ... people in the picture\n(If have) Miêu tả đặc điểm chung của nhân vật\n[vị trí], a man/a woman/a boy + + with + mô tả ngoại hình + is + V-ing\nMô tả bên cạnh, phía sau background: Next to her, I can see... In the background, there is...\nCảm giác: It seems that they are very busy... Maybe they are clearing their room.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx118.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Describe the image in detail."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx330.jpg"
+            },
+            {
+              "type": "text",
+              "text": "fully itemise the  contents of this photograph"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx084.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Genera un breve alt-text descrittivo dell'immagine allegata. L'alt-text deve contenere le seguenti keyword: qawra, malta, quadrilocale."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx007.jpg"
+            },
+            {
+              "type": "text",
+              "text": "how many cars are in this image?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx432.jpg"
+            },
+            {
+              "type": "text",
+              "text": "How many cars are in the image? Answer with only an integer and no punctuation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx073.jpg"
+            },
+            {
+              "type": "text",
+              "text": "How many cars are in this photo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx237.jpg"
+            },
+            {
+              "type": "text",
+              "text": "How many cars are in the image? Answer with only an integer and no punctuation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx356.jpg"
+            },
+            {
+              "type": "text",
+              "text": "How many cars are in the image? Answer with only an integer and no punctuation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx476.jpg"
+            },
+            {
+              "type": "text",
+              "text": "How many cars are in the image? Answer with only an integer and no punctuation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx489.jpg"
+            },
+            {
+              "type": "text",
+              "text": "How many cars are in the image? Answer with only an integer and no punctuation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx033.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Where is the car on the image ?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx181.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Which parts of the car are damaged? Output only a valid JSON object."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx174.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Please describe this image."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx357.jpg"
+            },
+            {
+              "type": "text",
+              "text": "What does the sign with the colorful letters say?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx003.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Keeping purely to the practical and functional aspect, would these instructions be comprehensive enough if intended for actual real-world use?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx187.jpg"
+            },
+            {
+              "type": "text",
+              "text": "What is this device on utility pole?\nRecently erected on site at an Elementary School in the US"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx302.jpg"
+            },
+            {
+              "type": "text",
+              "text": "What is this device on utility pole?\nRecently erected on site at an Elementary School in the US"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx457.jpg"
+            },
+            {
+              "type": "text",
+              "text": "What is this plant? It was super tiny and looks like moss, though it has these seed pods. It was growing in a crack in some concrete in my backyard in Seattle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx270.jpg"
+            },
+            {
+              "type": "text",
+              "text": "where is fish"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx006.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Describe this image as alt text."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx065.jpg"
+            },
+            {
+              "type": "text",
+              "text": "describe the image in 150 words in an SD style"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx218.jpg"
+            },
+            {
+              "type": "text",
+              "text": "describe the image in heavy detail"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx378.jpg"
+            },
+            {
+              "type": "text",
+              "text": "describe the image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx122.jpg"
+            },
+            {
+              "type": "text",
+              "text": "In a single word and no more, how will this scene go?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx463.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Explain what happens in the picture and where this kind of pictures can usually be found at."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx410.jpg"
+            },
+            {
+              "type": "text",
+              "text": "what is this picture"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx354.jpg"
+            },
+            {
+              "type": "text",
+              "text": "how many ppl r sitting in this image and how many males n femalrs r there"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx054.jpg"
+            },
+            {
+              "type": "text",
+              "text": "based on this image, how hot is it outside?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx061.jpg"
+            },
+            {
+              "type": "text",
+              "text": "What are the people eating in this picture?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx312.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Respond with just a JSON object from the receipt image provided, with the following fields:\n- shopNameShort\n- shopLocation\n- totalPriceInclusive\n- paymentMethod (either CASH, CREDIT, DEBIT, or UNKNOWN)\n- lineItems (an array of objects with fields: unitPrice, quantity, description, totalPrice. quantity field should be a unit-less integer such that unitPrice * quantity = totalPrice. For example, 600g is not valid)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx381.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Tell me what plant species this is and where it's natively from."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx494.jpg"
+            },
+            {
+              "type": "text",
+              "text": "What is this?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx184.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Create a TavernV2/Sillytavern card (description, opening message, example dialogue between {{char}} and {{user}}, etc.) based on the multi-axis chair/g-force training device displayed on the image. The machine should be AI-controlled. One of the taglines for the machine is \"At 46G, can you keep your head?\", hinting at its extreme capabilities."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx106.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Where is this image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx286.jpg"
+            },
+            {
+              "type": "text",
+              "text": "what is this paper about? tell me more about accedent that described in this picture"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx092.jpg"
+            },
+            {
+              "type": "text",
+              "text": "find the pattern"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx116.jpg"
+            },
+            {
+              "type": "text",
+              "text": "As a robot assistant, identify the main object in the image and explain how it could be used or interacted with in a real-world task."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx283.jpg"
+            },
+            {
+              "type": "text",
+              "text": "From a robot perception perspective, describe the visible object, its likely function, and any cues that would help a robot decide whether it can grasp or manipulate it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx020.jpg"
+            },
+            {
+              "type": "text",
+              "text": "As a service robot in a home or facility, identify the appliance or machine shown and explain what information is useful for interacting with it safely."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx007.jpg"
+            },
+            {
+              "type": "text",
+              "text": "As a mobile robot or navigation system, count the visible cars and briefly describe their positions in the scene."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx118.jpg"
+            },
+            {
+              "type": "text",
+              "text": "As an indoor service robot, describe the room layout and list the objects that would matter for navigation or task planning."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx330.jpg"
+            },
+            {
+              "type": "text",
+              "text": "From a robot viewpoint, itemize the main visible objects in the scene and mention which ones may act as obstacles or useful landmarks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx033.jpg"
+            },
+            {
+              "type": "text",
+              "text": "As a navigation robot, locate the car in the image and describe its position relative to the rest of the scene."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx181.jpg"
+            },
+            {
+              "type": "text",
+              "text": "As an inspection robot, identify the visible damaged parts of the car and output the key findings in a concise structured form."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx174.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Read any visible text, label, or sign in the image and explain how that information could help a robot decide its next action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx187.jpg"
+            },
+            {
+              "type": "text",
+              "text": "As an outdoor inspection robot, identify the device or object in the scene and explain what safety or navigation considerations it may imply."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx116.jpg"
+            },
+            {
+              "type": "text",
+              "text": "What is this for?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx283.jpg"
+            },
+            {
+              "type": "text",
+              "text": "what is this?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx020.jpg"
+            },
+            {
+              "type": "text",
+              "text": "What brand washing machines are depicted on this pic?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx146.jpg"
+            },
+            {
+              "type": "text",
+              "text": "I'm practicing TOEIC speaking Questions 3–4: Describe a picture. This is an example question:\n\"Directions: In this part of the test, you will describe the picture on your screen in as much detail as you can. You will have 45 seconds to prepare your response. Then you will have 30 seconds to speak about the picture.\"\nplease create its description with this structure:\n\"Địa điểm: This picture was taken in...\nSố lượng người: There are ... people in the picture\n(If have) Miêu tả đặc điểm chung của nhân vật\n[vị trí], a man/a woman/a boy + + with + mô tả ngoại hình + is + V-ing\nMô tả bên cạnh, phía sau background: Next to her, I can see... In the background, there is...\nCảm giác: It seems that they are very busy... Maybe they are clearing their room.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx118.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Describe the image in detail."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx330.jpg"
+            },
+            {
+              "type": "text",
+              "text": "fully itemise the  contents of this photograph"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx084.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Genera un breve alt-text descrittivo dell'immagine allegata. L'alt-text deve contenere le seguenti keyword: qawra, malta, quadrilocale."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx007.jpg"
+            },
+            {
+              "type": "text",
+              "text": "how many cars are in this image?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx432.jpg"
+            },
+            {
+              "type": "text",
+              "text": "How many cars are in the image? Answer with only an integer and no punctuation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx073.jpg"
+            },
+            {
+              "type": "text",
+              "text": "How many cars are in this photo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx237.jpg"
+            },
+            {
+              "type": "text",
+              "text": "How many cars are in the image? Answer with only an integer and no punctuation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx356.jpg"
+            },
+            {
+              "type": "text",
+              "text": "How many cars are in the image? Answer with only an integer and no punctuation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx476.jpg"
+            },
+            {
+              "type": "text",
+              "text": "How many cars are in the image? Answer with only an integer and no punctuation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx489.jpg"
+            },
+            {
+              "type": "text",
+              "text": "How many cars are in the image? Answer with only an integer and no punctuation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx033.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Where is the car on the image ?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx181.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Which parts of the car are damaged? Output only a valid JSON object."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx174.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Please describe this image."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx357.jpg"
+            },
+            {
+              "type": "text",
+              "text": "What does the sign with the colorful letters say?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx003.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Keeping purely to the practical and functional aspect, would these instructions be comprehensive enough if intended for actual real-world use?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx187.jpg"
+            },
+            {
+              "type": "text",
+              "text": "What is this device on utility pole?\nRecently erected on site at an Elementary School in the US"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx302.jpg"
+            },
+            {
+              "type": "text",
+              "text": "What is this device on utility pole?\nRecently erected on site at an Elementary School in the US"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx457.jpg"
+            },
+            {
+              "type": "text",
+              "text": "What is this plant? It was super tiny and looks like moss, though it has these seed pods. It was growing in a crack in some concrete in my backyard in Seattle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx270.jpg"
+            },
+            {
+              "type": "text",
+              "text": "where is fish"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx006.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Describe this image as alt text."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx065.jpg"
+            },
+            {
+              "type": "text",
+              "text": "describe the image in 150 words in an SD style"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx218.jpg"
+            },
+            {
+              "type": "text",
+              "text": "describe the image in heavy detail"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx378.jpg"
+            },
+            {
+              "type": "text",
+              "text": "describe the image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx122.jpg"
+            },
+            {
+              "type": "text",
+              "text": "In a single word and no more, how will this scene go?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx463.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Explain what happens in the picture and where this kind of pictures can usually be found at."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx410.jpg"
+            },
+            {
+              "type": "text",
+              "text": "what is this picture"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx354.jpg"
+            },
+            {
+              "type": "text",
+              "text": "how many ppl r sitting in this image and how many males n femalrs r there"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx054.jpg"
+            },
+            {
+              "type": "text",
+              "text": "based on this image, how hot is it outside?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx061.jpg"
+            },
+            {
+              "type": "text",
+              "text": "What are the people eating in this picture?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx312.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Respond with just a JSON object from the receipt image provided, with the following fields:\n- shopNameShort\n- shopLocation\n- totalPriceInclusive\n- paymentMethod (either CASH, CREDIT, DEBIT, or UNKNOWN)\n- lineItems (an array of objects with fields: unitPrice, quantity, description, totalPrice. quantity field should be a unit-less integer such that unitPrice * quantity = totalPrice. For example, 600g is not valid)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx381.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Tell me what plant species this is and where it's natively from."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx494.jpg"
+            },
+            {
+              "type": "text",
+              "text": "What is this?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx184.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Create a TavernV2/Sillytavern card (description, opening message, example dialogue between {{char}} and {{user}}, etc.) based on the multi-axis chair/g-force training device displayed on the image. The machine should be AI-controlled. One of the taglines for the machine is \"At 46G, can you keep your head?\", hinting at its extreme capabilities."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx106.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Where is this image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx286.jpg"
+            },
+            {
+              "type": "text",
+              "text": "what is this paper about? tell me more about accedent that described in this picture"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx092.jpg"
+            },
+            {
+              "type": "text",
+              "text": "find the pattern"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx116.jpg"
+            },
+            {
+              "type": "text",
+              "text": "As a robot assistant, identify the main object in the image and explain how it could be used or interacted with in a real-world task."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx283.jpg"
+            },
+            {
+              "type": "text",
+              "text": "From a robot perception perspective, describe the visible object, its likely function, and any cues that would help a robot decide whether it can grasp or manipulate it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx020.jpg"
+            },
+            {
+              "type": "text",
+              "text": "As a service robot in a home or facility, identify the appliance or machine shown and explain what information is useful for interacting with it safely."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx007.jpg"
+            },
+            {
+              "type": "text",
+              "text": "As a mobile robot or navigation system, count the visible cars and briefly describe their positions in the scene."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx118.jpg"
+            },
+            {
+              "type": "text",
+              "text": "As an indoor service robot, describe the room layout and list the objects that would matter for navigation or task planning."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx330.jpg"
+            },
+            {
+              "type": "text",
+              "text": "From a robot viewpoint, itemize the main visible objects in the scene and mention which ones may act as obstacles or useful landmarks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx033.jpg"
+            },
+            {
+              "type": "text",
+              "text": "As a navigation robot, locate the car in the image and describe its position relative to the rest of the scene."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx181.jpg"
+            },
+            {
+              "type": "text",
+              "text": "As an inspection robot, identify the visible damaged parts of the car and output the key findings in a concise structured form."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx174.jpg"
+            },
+            {
+              "type": "text",
+              "text": "Read any visible text, label, or sign in the image and explain how that information could help a robot decide its next action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一个简洁、可靠的机器人视觉助手。请只根据图像和用户问题回答。回答应清楚、实用，优先服务于机器人感知、导航、巡检或交互任务。"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image",
+              "image": "/mnt/ssd/qwen3vl8b_edgellm_benchmark/datasets/vision_arena_robot_like/robot_extended40_hybrid50_images/vision_arena_idx187.jpg"
+            },
+            {
+              "type": "text",
+              "text": "As an outdoor inspection robot, identify the device or object in the scene and explain what safety or navigation considerations it may imply."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

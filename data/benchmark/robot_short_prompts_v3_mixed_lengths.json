@@ -1,0 +1,720 @@
+[
+  {
+    "id": "nav_frontdesk_001",
+    "domain": "navigation",
+    "intent": "navigate_to_place",
+    "prompt": "我现在在大厅入口，想去前台办理登记，请问应该往哪边走？",
+    "slots": {
+      "place": "frontdesk",
+      "start": "lobby_entrance"
+    },
+    "external_dependency": "map",
+    "expected_response_type": "route_instruction",
+    "difficulty": "easy",
+    "asr_noise": "clean",
+    "prompt_approx_len": 24,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "nav_meeting_room_001",
+    "domain": "navigation",
+    "intent": "navigate_to_place",
+    "prompt": "我等会儿要开会，请问最近的会议室具体在几楼哪边？",
+    "slots": {
+      "place": "meeting_room"
+    },
+    "external_dependency": "map",
+    "expected_response_type": "route_instruction",
+    "difficulty": "easy",
+    "asr_noise": "clean",
+    "prompt_approx_len": 22,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "nav_elevator_001",
+    "domain": "navigation",
+    "intent": "navigate_to_place",
+    "prompt": "我想去楼上的展厅，请先带我到最近的电梯口可以吗？",
+    "slots": {
+      "place": "elevator",
+      "target": "upstairs_exhibition_hall"
+    },
+    "external_dependency": "map",
+    "expected_response_type": "route_instruction",
+    "difficulty": "easy",
+    "asr_noise": "clean",
+    "prompt_approx_len": 22,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "nav_restroom_001",
+    "domain": "navigation",
+    "intent": "navigate_to_place",
+    "prompt": "不好意思，我想找洗手间，请问从这里过去需要怎么走？",
+    "slots": {
+      "place": "restroom"
+    },
+    "external_dependency": "map",
+    "expected_response_type": "route_instruction",
+    "difficulty": "easy",
+    "asr_noise": "clean",
+    "prompt_approx_len": 22,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "nav_exit_001",
+    "domain": "navigation",
+    "intent": "navigate_to_place",
+    "prompt": "我准备离开这里，请问离我最近的出口在哪个方向？",
+    "slots": {
+      "place": "nearest_exit"
+    },
+    "external_dependency": "map",
+    "expected_response_type": "route_instruction",
+    "difficulty": "medium",
+    "asr_noise": "clean",
+    "prompt_approx_len": 21,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "nav_room_301_001",
+    "domain": "navigation",
+    "intent": "navigate_to_place",
+    "prompt": "我预约了三零一会议室，请帮我确认位置并带我过去。",
+    "slots": {
+      "place": "room_301"
+    },
+    "external_dependency": "map",
+    "expected_response_type": "route_instruction",
+    "difficulty": "medium",
+    "asr_noise": "clean",
+    "prompt_approx_len": 22,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "nav_parking_001",
+    "domain": "navigation",
+    "intent": "navigate_to_place",
+    "prompt": "我想去停车场取车，请问从当前大厅出发怎么走最近？",
+    "slots": {
+      "place": "parking_lot"
+    },
+    "external_dependency": "map",
+    "expected_response_type": "route_instruction",
+    "difficulty": "medium",
+    "asr_noise": "clean",
+    "prompt_approx_len": 22,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "nav_service_desk_001",
+    "domain": "navigation",
+    "intent": "navigate_to_place",
+    "prompt": "我有点找不到服务台了，你能告诉我它在大厅哪边吗？",
+    "slots": {
+      "place": "service_desk"
+    },
+    "external_dependency": "map",
+    "expected_response_type": "route_instruction",
+    "difficulty": "easy",
+    "asr_noise": "colloquial",
+    "prompt_approx_len": 22,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "nav_ambiguous_room_001",
+    "domain": "navigation",
+    "intent": "navigate_to_place_ambiguous",
+    "prompt": "我刚才听人说去那个会议室集合，你知道应该是哪一间吗？",
+    "slots": {
+      "place": "ambiguous_meeting_room"
+    },
+    "external_dependency": "map",
+    "expected_response_type": "clarification_then_route",
+    "difficulty": "hard",
+    "asr_noise": "ambiguous",
+    "prompt_approx_len": 24,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "nav_ambiguous_nearest_001",
+    "domain": "navigation",
+    "intent": "navigate_to_nearest_facility",
+    "prompt": "我有点累了，附近有没有可以坐下来休息一会儿的地方？",
+    "slots": {
+      "place": "nearest_rest_area"
+    },
+    "external_dependency": "map",
+    "expected_response_type": "route_instruction",
+    "difficulty": "medium",
+    "asr_noise": "clean",
+    "prompt_approx_len": 23,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "robot_capability_001",
+    "domain": "robot_control",
+    "intent": "ask_capability",
+    "prompt": "你好，我第一次见到你，能简单介绍一下你可以帮我做什么吗？",
+    "slots": {},
+    "external_dependency": "none",
+    "expected_response_type": "capability_summary",
+    "difficulty": "easy",
+    "asr_noise": "clean",
+    "prompt_approx_len": 25,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "robot_follow_001",
+    "domain": "robot_control",
+    "intent": "follow_user",
+    "prompt": "我需要边走边问问题，你可以先跟着我慢慢往前走吗？",
+    "slots": {},
+    "external_dependency": "robot_state",
+    "expected_response_type": "action_confirmation",
+    "difficulty": "medium",
+    "asr_noise": "clean",
+    "prompt_approx_len": 22,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "robot_stop_001",
+    "domain": "robot_control",
+    "intent": "stop_moving",
+    "prompt": "前面人有点多，你先停在这里等一下，不要继续往前走。",
+    "slots": {},
+    "external_dependency": "robot_state",
+    "expected_response_type": "action_confirmation",
+    "difficulty": "easy",
+    "asr_noise": "short_command",
+    "prompt_approx_len": 22,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "robot_repeat_001",
+    "domain": "robot_control",
+    "intent": "repeat_last_response",
+    "prompt": "刚才周围有点吵，我没听清楚，你能把上一句话再说一遍吗？",
+    "slots": {},
+    "external_dependency": "conversation_context",
+    "expected_response_type": "repeat_or_clarify",
+    "difficulty": "medium",
+    "asr_noise": "colloquial",
+    "prompt_approx_len": 24,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "robot_slow_down_001",
+    "domain": "robot_control",
+    "intent": "adjust_motion_speed",
+    "prompt": "你现在走得有点快，我跟不上，能不能稍微慢一点？",
+    "slots": {
+      "speed": "slower"
+    },
+    "external_dependency": "robot_state",
+    "expected_response_type": "action_confirmation",
+    "difficulty": "easy",
+    "asr_noise": "colloquial",
+    "prompt_approx_len": 20,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "tool_time_001",
+    "domain": "tool_required",
+    "intent": "ask_current_time",
+    "prompt": "我等会儿还有安排，请问现在准确时间是几点几分？",
+    "slots": {},
+    "external_dependency": "time",
+    "expected_response_type": "time_answer",
+    "difficulty": "easy",
+    "asr_noise": "clean",
+    "prompt_approx_len": 21,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "tool_weather_001",
+    "domain": "tool_required",
+    "intent": "ask_weather",
+    "prompt": "我准备出去一趟，能不能帮我看看外面现在天气怎么样？",
+    "slots": {},
+    "external_dependency": "weather",
+    "expected_response_type": "weather_answer",
+    "difficulty": "medium",
+    "asr_noise": "clean",
+    "prompt_approx_len": 23,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "tool_rain_001",
+    "domain": "tool_required",
+    "intent": "ask_weather_forecast",
+    "prompt": "我下午可能要外出，请问今天晚些时候会不会下雨？",
+    "slots": {
+      "date": "today"
+    },
+    "external_dependency": "weather",
+    "expected_response_type": "weather_answer",
+    "difficulty": "medium",
+    "asr_noise": "clean",
+    "prompt_approx_len": 21,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "tool_schedule_001",
+    "domain": "tool_required",
+    "intent": "ask_schedule",
+    "prompt": "我想确认一下今天的安排，请帮我看看接下来有什么事情。",
+    "slots": {
+      "date": "today"
+    },
+    "external_dependency": "calendar",
+    "expected_response_type": "schedule_answer",
+    "difficulty": "medium",
+    "asr_noise": "clean",
+    "prompt_approx_len": 24,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "tool_next_meeting_001",
+    "domain": "tool_required",
+    "intent": "ask_next_meeting",
+    "prompt": "我怕错过会议，能帮我查一下下一场会议什么时候开始吗？",
+    "slots": {},
+    "external_dependency": "calendar",
+    "expected_response_type": "schedule_answer",
+    "difficulty": "hard",
+    "asr_noise": "clean",
+    "prompt_approx_len": 24,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "help_staff_001",
+    "domain": "help",
+    "intent": "request_staff_help",
+    "prompt": "我这里遇到一点问题，能帮我找一位工作人员过来吗？",
+    "slots": {},
+    "external_dependency": "staff_contact",
+    "expected_response_type": "help_confirmation",
+    "difficulty": "easy",
+    "asr_noise": "clean",
+    "prompt_approx_len": 22,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "help_lost_001",
+    "domain": "help",
+    "intent": "lost_help",
+    "prompt": "我好像走错地方了，现在不知道该往哪里走，能帮帮我吗？",
+    "slots": {},
+    "external_dependency": "map",
+    "expected_response_type": "reassure_and_assist",
+    "difficulty": "medium",
+    "asr_noise": "short_utterance",
+    "prompt_approx_len": 23,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "help_emergency_001",
+    "domain": "safety",
+    "intent": "emergency_help",
+    "prompt": "前面有人突然摔倒了，请马上帮忙联系附近工作人员过来处理。",
+    "slots": {
+      "emergency_type": "fall"
+    },
+    "external_dependency": "staff_contact",
+    "expected_response_type": "urgent_help_confirmation",
+    "difficulty": "hard",
+    "asr_noise": "clean",
+    "prompt_approx_len": 26,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "help_frontdesk_001",
+    "domain": "help",
+    "intent": "request_frontdesk_contact",
+    "prompt": "我现在需要人工帮助，请帮我联系前台或者最近的服务人员。",
+    "slots": {
+      "contact_target": "frontdesk"
+    },
+    "external_dependency": "staff_contact",
+    "expected_response_type": "help_confirmation",
+    "difficulty": "medium",
+    "asr_noise": "clean",
+    "prompt_approx_len": 25,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "asr_frontdesk_001",
+    "domain": "navigation",
+    "intent": "navigate_to_place",
+    "prompt": "我想去前台办手续，但是刚才没听清，你说前台怎麼走？",
+    "slots": {
+      "place": "frontdesk"
+    },
+    "external_dependency": "map",
+    "expected_response_type": "route_instruction",
+    "difficulty": "medium",
+    "asr_noise": "asr_typo",
+    "prompt_approx_len": 22,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "asr_elevator_001",
+    "domain": "navigation",
+    "intent": "navigate_to_place",
+    "prompt": "我要去楼上找人，麻烦你先带我到最近的电提口。",
+    "slots": {
+      "place": "elevator"
+    },
+    "external_dependency": "map",
+    "expected_response_type": "route_instruction",
+    "difficulty": "medium",
+    "asr_noise": "asr_typo",
+    "prompt_approx_len": 20,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "asr_restroom_001",
+    "domain": "navigation",
+    "intent": "navigate_to_place",
+    "prompt": "我想问一下洗手间在哪儿啊，从这边过去远不远？",
+    "slots": {
+      "place": "restroom"
+    },
+    "external_dependency": "map",
+    "expected_response_type": "route_instruction",
+    "difficulty": "easy",
+    "asr_noise": "colloquial",
+    "prompt_approx_len": 20,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "oos_buy_coffee_001",
+    "domain": "out_of_scope",
+    "intent": "unsupported_request",
+    "prompt": "我现在有点困，你能不能替我去买一杯热咖啡？",
+    "slots": {
+      "item": "coffee"
+    },
+    "external_dependency": "none",
+    "expected_response_type": "polite_refusal_or_limitation",
+    "difficulty": "medium",
+    "asr_noise": "clean",
+    "prompt_approx_len": 19,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "oos_privacy_001",
+    "domain": "out_of_scope",
+    "intent": "privacy_sensitive_request",
+    "prompt": "刚才从我旁边过去的那个人是谁，你能告诉我他的名字吗？",
+    "slots": {
+      "target": "unknown_person"
+    },
+    "external_dependency": "privacy_sensitive",
+    "expected_response_type": "privacy_safe_response",
+    "difficulty": "hard",
+    "asr_noise": "clean",
+    "prompt_approx_len": 24,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "oos_unrelated_001",
+    "domain": "out_of_scope",
+    "intent": "unrelated_task",
+    "prompt": "我晚上要交作业了，你能直接帮我写一篇完整论文吗？",
+    "slots": {
+      "task": "essay_writing"
+    },
+    "external_dependency": "none",
+    "expected_response_type": "polite_refusal_or_redirect",
+    "difficulty": "medium",
+    "asr_noise": "clean",
+    "prompt_approx_len": 22,
+    "length_design_note": "prompt 本身按中文字符/英文数字片段粗略估计约 20-30；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "nav_frontdesk_short_001",
+    "domain": "navigation",
+    "intent": "navigate_to_place",
+    "prompt": "前台怎么走？",
+    "slots": {
+      "place": "frontdesk"
+    },
+    "external_dependency": "map",
+    "expected_response_type": "route_instruction",
+    "difficulty": "easy",
+    "asr_noise": "short_clean",
+    "prompt_approx_len": 5,
+    "length_design_note": "新增短问句：prompt 本身更接近 5-15 个中文字符/短语；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "nav_meeting_room_short_001",
+    "domain": "navigation",
+    "intent": "navigate_to_place",
+    "prompt": "会议室在哪？",
+    "slots": {
+      "place": "meeting_room"
+    },
+    "external_dependency": "map",
+    "expected_response_type": "route_instruction",
+    "difficulty": "easy",
+    "asr_noise": "short_clean",
+    "prompt_approx_len": 5,
+    "length_design_note": "新增短问句：prompt 本身更接近 5-15 个中文字符/短语；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "nav_elevator_short_001",
+    "domain": "navigation",
+    "intent": "navigate_to_place",
+    "prompt": "带我去电梯。",
+    "slots": {
+      "place": "elevator"
+    },
+    "external_dependency": "map",
+    "expected_response_type": "route_instruction",
+    "difficulty": "easy",
+    "asr_noise": "short_command",
+    "prompt_approx_len": 5,
+    "length_design_note": "新增短问句：prompt 本身更接近 5-15 个中文字符/短语；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "nav_restroom_short_001",
+    "domain": "navigation",
+    "intent": "navigate_to_place",
+    "prompt": "洗手间在哪？",
+    "slots": {
+      "place": "restroom"
+    },
+    "external_dependency": "map",
+    "expected_response_type": "route_instruction",
+    "difficulty": "easy",
+    "asr_noise": "short_clean",
+    "prompt_approx_len": 5,
+    "length_design_note": "新增短问句：prompt 本身更接近 5-15 个中文字符/短语；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "nav_exit_short_001",
+    "domain": "navigation",
+    "intent": "navigate_to_place",
+    "prompt": "出口在哪边？",
+    "slots": {
+      "place": "exit"
+    },
+    "external_dependency": "map",
+    "expected_response_type": "route_instruction",
+    "difficulty": "easy",
+    "asr_noise": "short_clean",
+    "prompt_approx_len": 5,
+    "length_design_note": "新增短问句：prompt 本身更接近 5-15 个中文字符/短语；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "nav_parking_short_001",
+    "domain": "navigation",
+    "intent": "navigate_to_place",
+    "prompt": "停车场在哪？",
+    "slots": {
+      "place": "parking_lot"
+    },
+    "external_dependency": "map",
+    "expected_response_type": "route_instruction",
+    "difficulty": "easy",
+    "asr_noise": "short_clean",
+    "prompt_approx_len": 5,
+    "length_design_note": "新增短问句：prompt 本身更接近 5-15 个中文字符/短语；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "nav_service_short_001",
+    "domain": "navigation",
+    "intent": "navigate_to_place",
+    "prompt": "服务台在哪儿？",
+    "slots": {
+      "place": "service_desk"
+    },
+    "external_dependency": "map",
+    "expected_response_type": "route_instruction",
+    "difficulty": "easy",
+    "asr_noise": "short_colloquial",
+    "prompt_approx_len": 6,
+    "length_design_note": "新增短问句：prompt 本身更接近 5-15 个中文字符/短语；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "robot_capability_short_001",
+    "domain": "robot_control",
+    "intent": "ask_capability",
+    "prompt": "你会做什么？",
+    "slots": {},
+    "external_dependency": "none",
+    "expected_response_type": "capability_summary",
+    "difficulty": "easy",
+    "asr_noise": "short_clean",
+    "prompt_approx_len": 5,
+    "length_design_note": "新增短问句：prompt 本身更接近 5-15 个中文字符/短语；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "robot_follow_short_001",
+    "domain": "robot_control",
+    "intent": "follow_user",
+    "prompt": "跟着我走。",
+    "slots": {},
+    "external_dependency": "robot_state",
+    "expected_response_type": "action_confirmation",
+    "difficulty": "easy",
+    "asr_noise": "short_command",
+    "prompt_approx_len": 4,
+    "length_design_note": "新增短问句：prompt 本身更接近 5-15 个中文字符/短语；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "robot_stop_short_001",
+    "domain": "robot_control",
+    "intent": "stop_moving",
+    "prompt": "先停一下。",
+    "slots": {},
+    "external_dependency": "robot_state",
+    "expected_response_type": "action_confirmation",
+    "difficulty": "easy",
+    "asr_noise": "short_command",
+    "prompt_approx_len": 4,
+    "length_design_note": "新增短问句：prompt 本身更接近 5-15 个中文字符/短语；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "robot_repeat_short_001",
+    "domain": "robot_control",
+    "intent": "repeat_last_response",
+    "prompt": "再说一遍。",
+    "slots": {},
+    "external_dependency": "conversation_context",
+    "expected_response_type": "repeat_or_clarify",
+    "difficulty": "medium",
+    "asr_noise": "short_command",
+    "prompt_approx_len": 4,
+    "length_design_note": "新增短问句：prompt 本身更接近 5-15 个中文字符/短语；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "robot_slow_down_short_001",
+    "domain": "robot_control",
+    "intent": "adjust_motion_speed",
+    "prompt": "慢一点。",
+    "slots": {
+      "speed": "slower"
+    },
+    "external_dependency": "robot_state",
+    "expected_response_type": "action_confirmation",
+    "difficulty": "easy",
+    "asr_noise": "short_command",
+    "prompt_approx_len": 3,
+    "length_design_note": "新增短问句：prompt 本身更接近 5-15 个中文字符/短语；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "tool_time_short_001",
+    "domain": "tool_required",
+    "intent": "ask_current_time",
+    "prompt": "现在几点？",
+    "slots": {},
+    "external_dependency": "time",
+    "expected_response_type": "time_answer",
+    "difficulty": "easy",
+    "asr_noise": "short_clean",
+    "prompt_approx_len": 4,
+    "length_design_note": "新增短问句：prompt 本身更接近 5-15 个中文字符/短语；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "tool_weather_short_001",
+    "domain": "tool_required",
+    "intent": "ask_weather",
+    "prompt": "外面冷吗？",
+    "slots": {},
+    "external_dependency": "weather",
+    "expected_response_type": "weather_answer",
+    "difficulty": "easy",
+    "asr_noise": "short_clean",
+    "prompt_approx_len": 4,
+    "length_design_note": "新增短问句：prompt 本身更接近 5-15 个中文字符/短语；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "tool_rain_short_001",
+    "domain": "tool_required",
+    "intent": "ask_weather_forecast",
+    "prompt": "今天下雨吗？",
+    "slots": {
+      "date": "today"
+    },
+    "external_dependency": "weather",
+    "expected_response_type": "weather_answer",
+    "difficulty": "easy",
+    "asr_noise": "short_clean",
+    "prompt_approx_len": 5,
+    "length_design_note": "新增短问句：prompt 本身更接近 5-15 个中文字符/短语；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "tool_schedule_short_001",
+    "domain": "tool_required",
+    "intent": "ask_schedule",
+    "prompt": "今天有安排吗？",
+    "slots": {
+      "date": "today"
+    },
+    "external_dependency": "calendar",
+    "expected_response_type": "schedule_answer",
+    "difficulty": "medium",
+    "asr_noise": "short_clean",
+    "prompt_approx_len": 6,
+    "length_design_note": "新增短问句：prompt 本身更接近 5-15 个中文字符/短语；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "help_staff_short_001",
+    "domain": "help",
+    "intent": "request_staff_help",
+    "prompt": "找工作人员。",
+    "slots": {},
+    "external_dependency": "staff_contact",
+    "expected_response_type": "help_confirmation",
+    "difficulty": "easy",
+    "asr_noise": "short_command",
+    "prompt_approx_len": 5,
+    "length_design_note": "新增短问句：prompt 本身更接近 5-15 个中文字符/短语；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "help_lost_short_001",
+    "domain": "help",
+    "intent": "lost_help",
+    "prompt": "我迷路了。",
+    "slots": {},
+    "external_dependency": "map",
+    "expected_response_type": "reassure_and_assist",
+    "difficulty": "easy",
+    "asr_noise": "short_utterance",
+    "prompt_approx_len": 4,
+    "length_design_note": "新增短问句：prompt 本身更接近 5-15 个中文字符/短语；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "help_emergency_short_001",
+    "domain": "safety",
+    "intent": "emergency_help",
+    "prompt": "有人摔倒了。",
+    "slots": {
+      "emergency_type": "fall"
+    },
+    "external_dependency": "staff_contact",
+    "expected_response_type": "urgent_help_confirmation",
+    "difficulty": "hard",
+    "asr_noise": "short_utterance",
+    "prompt_approx_len": 5,
+    "length_design_note": "新增短问句：prompt 本身更接近 5-15 个中文字符/短语；真实 token 数以 tokenizer 输出为准。"
+  },
+  {
+    "id": "oos_privacy_short_001",
+    "domain": "out_of_scope",
+    "intent": "privacy_sensitive_request",
+    "prompt": "那个人是谁？",
+    "slots": {
+      "target": "unknown_person"
+    },
+    "external_dependency": "privacy_sensitive",
+    "expected_response_type": "privacy_safe_response",
+    "difficulty": "hard",
+    "asr_noise": "short_clean",
+    "prompt_approx_len": 5,
+    "length_design_note": "新增短问句：prompt 本身更接近 5-15 个中文字符/短语；真实 token 数以 tokenizer 输出为准。"
+  }
+]
